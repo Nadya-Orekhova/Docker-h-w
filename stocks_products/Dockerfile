@@ -11,4 +11,3 @@ RUN python manage.py migrate
 EXPOSE 6000
 
 CMD ["python3", "manage.py", "runserver", "0.0.0.0:6000"]
-
